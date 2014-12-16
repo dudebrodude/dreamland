@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dreamland Collective</title>
+	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+	<%= csrf_meta_tags %>
+</head>
+<body>
+	<div class="container wrapper">
+		
+				<%= render 'layouts/header' %>
+				<div class="main-wrap">
+					
+				
+		<%= render 'layouts/nav' %>
+
+			<div class="main">
+				<%= yield %>
+					</div>
+					<%= render 'layouts/footer' %>
+		</div>	
+</div>
+</body>
+</html>
