@@ -1,146 +1,122 @@
 body, html{
 	background:#111;
 }
-  .wrapper{
-    
-  }
-.main-wrap {
-    border: 2px solid #111111;
-    -webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.75);
-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.75);
-    position: relative;
-    z-index: 98;
+.wrapper {
+  border: 2px solid #111111;
+  -webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.75);
+  margin-top: 25px;
 }
-//Header settings
-.header {
-    border-radius: 2px 3px 0 0;
-    height: 20px;
-    margin-top: 10px;
-    position: relative;
-    z-index: 99;
-}
-
 
 // Navbar settings
 .navbar {
 	border-radius: 0px;
-  
+
 }
 .navbar-inverse {
-    background: linear-gradient(#0d0d0d, #000000) repeat scroll 0 0 rgba(0, 0, 0, 0);
-    border: medium none;
-    border-radius: 3px 3px 0 0;
-    border-bottom:1px solid #1a1a1a;
-    margin: 0 -1px;
+  background: linear-gradient(#0d0d0d, #000000) repeat scroll 0 0 rgba(0, 0, 0, 0);
+  border: medium none;
+  border-radius: 3px 3px 0 0;
+  border-bottom:1px solid #1a1a1a;
+  margin: 0 -1px;
 
 }   
 .logo {
-    float: left;
-    height: 110px;
-    margin: -11px 10px -24px;
-    padding-top: 5px;
-    position: relative;
-    z-index: 100;
+  float: left;
+  height: 110px;
+  margin: -11px 10px -24px;
+  padding-top: 5px;
+  position: relative;
+  z-index: 100;
 }
 .navbar-inverse .navbar-nav > li > a {
-  font-family: Bebas;
-  color: #398a31;
-  font-size: 20px;
-  margin-top: 0;
+    color: #398a31;
+    font-family: Bebas;
+    font-size: 24px;
+    margin-top: 0;
+}
+.navbar-brand {
+    float: left;
+    font-size: 18px;
+    height: 90px;
+    line-height: 20px;
+    margin-bottom: -10px;
+    margin-top: -10px;
+    padding: 15px;
 }
 .nav-links{
   margin-left: 10px;
+  margin-top: 10px;
 }
 
 
 // Main
 .top{
-    
-      background: none repeat scroll 0 0 #0e0e0e;
-    margin: -3px -3px 0 -3px;
-    padding: 3px;
-    
+
+  background: none repeat scroll 0 0 #0e0e0e;
+  margin: -3px -3px 0 -3px;
+  padding: 3px;
+
 }
 .bottom{
-    
-      background: none repeat scroll 0 0 #0e0e0e;
-    margin: 0px -3px -3px -3px;
-    padding: 3px;
-    
+
+  background: none repeat scroll 0 0 #0e0e0e;
+  margin: 0px -3px -3px -3px;
+  padding: 3px;
+
 }
 .main{
-    background: #131313;
-padding:5px;
-    margin-top: 2px;
-    min-height: 500px;
-        position: relative;
-    z-index: 98;
+  background: #131313;
+  padding:5px;
+  margin-top: 2px;
+  min-height: 500px;
+  position: relative;
+  z-index: 98;
 }
 .slideshow{
-    margin-bottom: 11px;
-    margin-left: -8px;
-    margin-top: 5px;
+  margin-bottom: 11px;
+  margin-left: -8px;
+  margin-top: 5px;
 
 }
 .carousel-inner{
-      -webkit-box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.75);
-box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.75);
 }
 
 //Sidebar
 .sidebar {
-    border-radius: 3px;
-    margin: 3px 0;
-    min-height: 288px;
-    padding: 10px;
+  border-radius: 3px;
+  margin: 3px 0;
+  min-height: 288px;
+  padding: 10px;
 }
 .title {
-    color: #444;
-    font-family: Bebas;
-    font-size: 24px;
-    margin-top: 20%;
-    text-align: center;
+  color: #444;
+  font-family: Bebas;
+  font-size: 24px;
+  margin-top: 20%;
+  text-align: center;
 }
 .lower {
-    margin-top: 13%;
-    padding-bottom: 20%;
+  margin-top: 13%;
+  padding-bottom: 20%;
 }
 .subtext{
   color: #777;
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Footer
 
 footer {
-    background: linear-gradient(#0d0d0d, black) repeat scroll 0 0 rgba(0, 0, 0, 0);
-    color: #444;
-    margin: -1px;
-    min-height: 60px;
-    padding-top: 5px;
+  background: linear-gradient(#0d0d0d, black) repeat scroll 0 0 rgba(0, 0, 0, 0);
+  color: #444;
+  margin: -1px;
+  min-height: 60px;
+  padding-top: 5px;
   a {
     color: #444;
     &:hover {
@@ -163,7 +139,7 @@ footer {
   }
 }
 .social-media {
-    color: #444444;
-    margin-right: 10px;
-    margin-top: 15px;
+  color: #444444;
+  margin-right: 10px;
+  margin-top: 15px;
 }
